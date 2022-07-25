@@ -16,9 +16,9 @@ spring:
         url-pattern: /druid/*
   datasource:
       driver-class-name: oracle.jdbc.OracleDriver
-      url: jdbc:oracle:thin:@192.180.4.13:1521:orcl
-      username: fileuser
-      password: fileuser
+      url: jdbc:oracle:thin:@192.180.XXX.XXX:1521:orcl
+      username: demo
+      password: demo
       hikari:
         minimum-idle: 2
         maximum-pool-size: 5
